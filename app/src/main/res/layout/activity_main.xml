@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/birthdaylogo"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewBirthdayLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textViewWishList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center"
+        android:text="@string/wish_list"
+        android:textColor="@android:color/black"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBoxQadroCopter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/check_box_qadrocopter"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWishList" />
+
+    <SeekBar
+        android:id="@+id/seekBarQadrocopter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="60"
+        android:progress="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxQadroCopter" />
+
+    <CheckBox
+        android:id="@+id/checkBoxLawnMover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/checkBoxLawnMower"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarQadrocopter" />
+
+
+
+    <SeekBar
+        android:id="@+id/seekBarLawnMover"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="60"
+        android:progress="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxLawnMover" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxMoney"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/checkBoxMoney"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarLawnMover" />
+
+    <CheckBox
+        android:id="@+id/checkBoxUnderwearingSuit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/checkBoxUnderwearingSuit"
+        android:textColorHighlight="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxMoney" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNewSmartphone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/checkBoxNewSmartphone"
+        android:textColorHighlight="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxUnderwearingSuit" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFishingSuit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/checkBoxFishingSuit"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxNewSmartphone" />
+
+    <Button
+        android:id="@+id/buttonChecked"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:shadowColor="@android:color/holo_purple"
+        android:text="@string/Order"
+        android:textColor="@android:color/background_dark"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="onClickOrderGift"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewBirthdayLogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

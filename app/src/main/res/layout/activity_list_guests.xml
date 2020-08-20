@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".ListGuests">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewListGuests"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/gest_list"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <CheckBox
+
+                android:id="@+id/checkBoxMarina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_marina"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_mama"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPapa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_papa"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxTetyaTanya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_tetya_tanya"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKatya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_katya_markova"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKolya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_kolya_markov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxDasha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_dasha"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKsusha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_ksusha"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxDima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_dima_poltanov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxAnya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_anya_poltanova"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxVeronika"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_veronika"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxNastya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_nastya"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxDanil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_danil"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPetuhovSasha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_sasha_petuhov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxPetuhovaMarina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_marina_petuhova"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMonashevMisha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_misha_monashev"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFedorovMisha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_misha_fidorov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFedorovaMasha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_masha_fidorova"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMonashevaYana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_yana_monasheva"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxFarida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_farida"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxZhenyaShevnin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_zhenia_shevnin"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxBaikov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_zhenia_baikov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKatyaTortik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_katya_karpova"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxKolyaKarpov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_kolya_karpov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxTronina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_tronina"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxMarinaPozdeeva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_marina_pozdeeva"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSashaPozdeev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_sasha_pozdeev"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxVolodyaTihonov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_volodia_tihonov"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxTihonova"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_bella_tihonova"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSharif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:text="@string/guest_sharif"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonInvite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="Пригласить"
+                android:onClick="onClickSetListGuests"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
